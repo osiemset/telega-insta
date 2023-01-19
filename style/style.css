@@ -1,0 +1,83 @@
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.wrapper{
+    background-image: url(../img/background_header/tyler-lastovich-d0Sl3AH8Tlg-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.wrapper img{
+    width: 150px;
+}
+#wrapper_1{
+    background-color: indigo;
+    height: 200px;
+}
+.text_id-1{
+    max-width: 670px;
+    margin: 0 auto;
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    line-height: 30px;
+    font-weight: bold;
+    padding-top: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.text_id-1:hover{
+    cursor: pointer;
+}
+#wrapper_2{
+    background-color: indigo;
+    height: 200px; 
+}
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 1040px;
+    }
+}
+@media screen and (max-width:1090px){
+    .container{
+        max-width: 750px;
+    }
+}
+@media screen and (max-width: 800px){
+    .container{
+        max-width: 700px;
+    }
+    .wrapper{
+        flex-direction: column;
+        height: 1000px;
+    }
+}
+@media screen and (max-width:550px){
+    .container{
+        max-width: 430px;
+    }
+    .text_id-1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:360px){
+    .container{
+        max-width: 320px;
+    }
+    .text_id-1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:320px){
+    .container{
+        max-width: 320px;
+    }
+}
